@@ -3,6 +3,7 @@
 This study is a personal work that investigates the functional connectivity of brains of cognitively normal patients, Parkinson's disease patients with mild cognitive impairment, and Parkinson's disease patients with dementia. 
 The aim of this study is to create a functional representation of the brains, compare the brains by sub-group to deterimine differences between sex, age, handedness, and years of education, and further infer what level of electrical stimulation at what specific location in diseased patients would allow for the return to healthy cognition. This project is a part of the edX MITx 6.419x Data Analysis: Statistical Modeling and Computation in Applications course. It implements data acquired from [OpenNeuro: Parkinson's disease, functional connectivity, and cognition](https://openneuro.org/datasets/ds004392/versions/1.0.0) and is cited below.
 
+## Data Citation
 Korey P. Wylie and Benzi M. Kluger and Luis D. Medina and Samantha K. Holden and Eugene Kronberg and Jason R. Tregellas and Isabelle Buard (2023). Parkinson's disease, functional connectivity, and cognition. OpenNeuro. [Dataset] doi: doi:10.18112/openneuro.ds004392.v1.0.0
 
 ## Original Dataset Description
