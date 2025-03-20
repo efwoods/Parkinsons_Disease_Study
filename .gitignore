@@ -1,0 +1,96 @@
+**/*.nii
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory/
+
+# PyInstaller
+#  Typically a temp folder containing a lot of files that aren't meant to be tracked.
+#  For more information, see https://pyinstaller.readthedocs.io/en/stable/
+#  This can often be seen with a `build/` folder.
+#  If you have other temporary files that shouldn’t be tracked, include them here.
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sphinx documentation
+docs/_build/
+build/
+
+# Test coverage
+.coverage
+coverage.xml
+*.coveragerc
+nosetests.xml
+test_*.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# .tox, .nox, .coverage, etc.
+.tox/
+.nox/
+.coverage/
+*.hypothesis/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+# JetBrains IDEs
+.idea/
+# Eclipse
+.project
+.pydevproject
+# MacOS Finder
+.DS_Store
+# Windows Installer Files
+Thumbs.db
+
+# Google Cloud SDK
+.gcloud/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
