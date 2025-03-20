@@ -34,7 +34,7 @@ This dataset contains patients diagnosed with Parkinson's disease, scanned with 
 I hope to leverage the understandings in this repository for further understandings of the human mind, to create a path toward practical implementation of a Neuralink device to provide care to real-world patients, and to augment these understandings for future applications.
 
 ## Process
-- [ ] Acquire data
+- [x] Acquire data
 - [ ] Process data
 - [ ] Cluster data into healthy, MCI, and Dementia
 - [ ] Segregate the data by handedness, sex, education, and age
