@@ -3,3 +3,5 @@ numpy
 matplotlib
 nilearn
 networkx
+pyvista 
+scikit-image
