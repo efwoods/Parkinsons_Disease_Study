@@ -1,7 +1,14 @@
 # Parkinson's Disease Study
 
+
 This study is a personal work that investigates the functional connectivity of brains of cognitively normal patients, Parkinson's disease patients with mild cognitive impairment, and Parkinson's disease patients with dementia. 
 The aim of this study is to create a functional representation of the brains, compare the brains by sub-group to deterimine differences between sex, age, handedness, and years of education, and further infer what level of electrical stimulation at what specific location in diseased patients would allow for the return to healthy cognition. This project is a part of the edX MITx 6.419x Data Analysis: Statistical Modeling and Computation in Applications course. It implements data acquired from [OpenNeuro: Parkinson's disease, functional connectivity, and cognition](https://openneuro.org/datasets/ds004392/versions/1.0.0) and is cited below.
+
+## Thesis
+Is there a significant difference in either or both fALFF and CV scores of the BOLD signals in any regions of the mind of any user that differs with respect to cognitive health, handedness, sex, age, and/or years of education. As a follow-up inquiry, if there are notable differences in the fALFF or CV values for regions of individuals that have MCI or Dementia, what is the prescribed level of voltage that would need to be or has been applied at that particular region of the brain to achieve health normal cognitive BOLD levels as observed in the healthy population?
+
+### Future inquiry:
+Is it possible to predict MCI or Dementia in healthy cognitively normal patients given the BOLD signal and metrics such as the fALFF or CV?
 
 ## Data Citation
 Korey P. Wylie and Benzi M. Kluger and Luis D. Medina and Samantha K. Holden and Eugene Kronberg and Jason R. Tregellas and Isabelle Buard (2023). Parkinson's disease, functional connectivity, and cognition. OpenNeuro. [Dataset] doi: doi:10.18112/openneuro.ds004392.v1.0.0
@@ -42,3 +49,5 @@ I hope to leverage the understandings in this repository for further understandi
 - [ ] Create Visualizations
 - [ ] Identify Stimulation Requirements
 - [ ] Visualize the healthy version of a stimulated MCI or Demented cognitive patient
+  
+## [Sources](Sources.md)
