@@ -1,6 +1,10 @@
 # Sources
 
 ## fALFF Sources
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9704793/
+
+
 1. Zou, Q. H., et al. (2010). "Impaired default mode network in resting-state functional MRI of the brain in mild cognitive impairment."
 
     Journal: BMC Neurology
