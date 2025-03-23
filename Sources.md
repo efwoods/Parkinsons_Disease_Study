@@ -1,5 +1,8 @@
 # Sources
 
+## Parkinsons Aging in the Substania Nigra
+ Trist BG, Hare DJ, Double KL. Oxidative stress in the aging substantia nigra and the etiology of Parkinson's disease. Aging Cell. 2019; 18:e13031. https://doi.org/10.1111/acel.13031
+
 ## fALFF Sources
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9704793/
