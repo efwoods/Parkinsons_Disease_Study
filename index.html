@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Network Visualization</title>
+    <!-- Link to Plotly.js CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h1>3D Brain Network Visualization</h1>
+    <div id="brain-visualization"></div>
+
+    <script>
+        // Load the exported figure HTML file into the div
+        Plotly.d3.json("brain_network_visualization.html", function (data) {
+            Plotly.newPlot('brain-visualization', data.data, data.layout);
+        });
+    </script>
+</body>
+
+</html>
