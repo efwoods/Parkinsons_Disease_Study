@@ -9,3 +9,4 @@ scikit-image
 trimesh
 pyvis
 plotly
+pytesseract
