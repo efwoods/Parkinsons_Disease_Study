@@ -1,0 +1,108 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Frontal Pole"
+        },
+        {
+            "id": "Middle Frontal Gyrus"
+        },
+        {
+            "id": "Superior Temporal Gyrus, posterior division"
+        },
+        {
+            "id": "Middle Temporal Gyrus, anterior division"
+        },
+        {
+            "id": "Middle Temporal Gyrus, posterior division"
+        },
+        {
+            "id": "Supramarginal Gyrus, anterior division"
+        },
+        {
+            "id": "Supramarginal Gyrus, posterior division"
+        },
+        {
+            "id": "Angular Gyrus"
+        },
+        {
+            "id": "Frontal Opercular Cortex"
+        },
+        {
+            "id": "Supracalcarine Cortex"
+        },
+        {
+            "id": "Left Accumbens"
+        },
+        {
+            "id": "Substantia Nigra Right"
+        },
+        {
+            "id": "Left Caudate"
+        }
+    ],
+    "links": [
+        {
+            "weight": 0.5623778247631402,
+            "source": "Frontal Pole",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.5524563389174427,
+            "source": "Middle Frontal Gyrus",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.6028372270492137,
+            "source": "Superior Temporal Gyrus, posterior division",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.5671391287037517,
+            "source": "Middle Temporal Gyrus, anterior division",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.778901437475511,
+            "source": "Middle Temporal Gyrus, posterior division",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.7029969792749099,
+            "source": "Supramarginal Gyrus, anterior division",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.6721206921909535,
+            "source": "Supramarginal Gyrus, posterior division",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.5793888993914911,
+            "source": "Angular Gyrus",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.5352537358455953,
+            "source": "Frontal Opercular Cortex",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.6100374849529102,
+            "source": "Supracalcarine Cortex",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.5256832027888765,
+            "source": "Left Accumbens",
+            "target": "Substantia Nigra Right"
+        },
+        {
+            "weight": 0.2958216906943989,
+            "source": "Substantia Nigra Right",
+            "target": "Left Caudate"
+        }
+    ]
+}
