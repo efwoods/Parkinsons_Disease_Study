@@ -5,3 +5,7 @@ nilearn
 networkx
 pyvista 
 scikit-image
+
+trimesh
+pyvis
+plotly
