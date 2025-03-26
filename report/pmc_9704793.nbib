@@ -1,0 +1,121 @@
+PMID- 35903957
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221130
+LR  - 20240908
+IS  - 1097-0193 (Electronic)
+IS  - 1065-9471 (Print)
+IS  - 1065-9471 (Linking)
+VI  - 43
+IP  - 18
+DP  - 2022 Dec 15
+TI  - Default mode network mediates low-frequency fluctuations in brain activity and 
+      behavior during sustained attention.
+PG  - 5478-5489
+LID - 10.1002/hbm.26024 [doi]
+AB  - The low-frequency (<0.1 Hz) fluctuation in sustained attention attracts enormous 
+      interest in cognitive neuroscience and clinical research since it always leads to 
+      cognitive and behavioral lapses. What is the source of the spontaneous 
+      fluctuation in sustained attention in neural activity, and how does the neural 
+      fluctuation relate to behavioral fluctuation? Here, we address these questions by 
+      collecting and analyzing two independent fMRI and behavior datasets. We show that 
+      the neural (fMRI) fluctuation in a key brain network, the default-mode network 
+      (DMN), mediate behavioral (reaction time) fluctuation during sustained attention. 
+      DMN shows the increased amplitude of fluctuation, which correlates with the 
+      behavioral fluctuation in a similar frequency range (0.01-0.1 Hz) but not in the 
+      lower (<0.01 Hz) or higher (>0.1 Hz) frequency range. This was observed during 
+      both auditory and visual sustained attention and was replicable across 
+      independent datasets. These results provide a novel insight into the neural 
+      source of attention-fluctuation and extend the former concept that DMN was 
+      deactivated in cognitive tasks. More generally, our findings highlight the 
+      temporal dynamic of the brain-behavior relationship.
+CI  - © 2022 The Authors. Human Brain Mapping published by Wiley Periodicals LLC.
+FAU - Zhang, Hang
+AU  - Zhang H
+AUID- ORCID: 0000-0002-4042-4516
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Psychological Science, Hangzhou Normal University, Hangzhou, 
+      Zhejiang, China.
+AD  - Zhejiang Key Laboratory for Research in Assessment of Cognitive Impairment, 
+      Hangzhou, Zhejiang, China.
+FAU - Yang, Shi-You
+AU  - Yang SY
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Psychological Science, Hangzhou Normal University, Hangzhou, 
+      Zhejiang, China.
+AD  - Zhejiang Key Laboratory for Research in Assessment of Cognitive Impairment, 
+      Hangzhou, Zhejiang, China.
+FAU - Qiao, Yang
+AU  - Qiao Y
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Psychological Science, Hangzhou Normal University, Hangzhou, 
+      Zhejiang, China.
+AD  - Zhejiang Key Laboratory for Research in Assessment of Cognitive Impairment, 
+      Hangzhou, Zhejiang, China.
+FAU - Ge, Qiu
+AU  - Ge Q
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Psychological Science, Hangzhou Normal University, Hangzhou, 
+      Zhejiang, China.
+AD  - Zhejiang Key Laboratory for Research in Assessment of Cognitive Impairment, 
+      Hangzhou, Zhejiang, China.
+FAU - Tang, Yi-Yuan
+AU  - Tang YY
+AD  - College of Health Solutions, Arizona State University, Tempe, Arizona, USA.
+FAU - Northoff, Georg
+AU  - Northoff G
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Mental Health Research, University of Ottawa, Ottawa, Canada.
+FAU - Zang, Yu-Feng
+AU  - Zang YF
+AD  - Centre for Cognition and Brain Disorders, The Affiliated Hospital of Hangzhou 
+      Normal University, Hangzhou, Zhejiang, China.
+AD  - Institute of Psychological Science, Hangzhou Normal University, Hangzhou, 
+      Zhejiang, China.
+AD  - Zhejiang Key Laboratory for Research in Assessment of Cognitive Impairment, 
+      Hangzhou, Zhejiang, China.
+LA  - eng
+GR  - CIHR/Canada
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20220729
+PL  - United States
+TA  - Hum Brain Mapp
+JT  - Human brain mapping
+JID - 9419065
+SB  - IM
+MH  - Humans
+MH  - *Brain Mapping/methods
+MH  - *Default Mode Network
+MH  - Attention
+MH  - Brain/diagnostic imaging
+MH  - Magnetic Resonance Imaging/methods
+PMC - PMC9704793
+OTO - NOTNLM
+OT  - default mode network
+OT  - fMRI
+OT  - low-frequency fluctuation
+OT  - sustained attention
+COIS- The authors declare no conflicts of interest.
+EDAT- 2022/07/30 06:00
+MHDA- 2022/12/01 06:00
+PMCR- 2022/07/29
+CRDT- 2022/07/29 03:43
+PHST- 2022/07/02 00:00 [revised]
+PHST- 2022/05/09 00:00 [received]
+PHST- 2022/07/10 00:00 [accepted]
+PHST- 2022/07/30 06:00 [pubmed]
+PHST- 2022/12/01 06:00 [medline]
+PHST- 2022/07/29 03:43 [entrez]
+PHST- 2022/07/29 00:00 [pmc-release]
+AID - HBM26024 [pii]
+AID - 10.1002/hbm.26024 [doi]
+PST - ppublish
+SO  - Hum Brain Mapp. 2022 Dec 15;43(18):5478-5489. doi: 10.1002/hbm.26024. Epub 2022 
+      Jul 29.
