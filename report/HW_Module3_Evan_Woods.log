@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  25 MAR 2025 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  25 MAR 2025 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -662,9 +662,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
- <../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (./HW_Module3_Evan_Woods.bbl
+ <../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>] (./HW_Module3_Evan_Woods.bbl
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -691,18 +689,18 @@ Package rerunfilecheck Info: File `HW_Module3_Evan_Woods.out' has not changed.
 (rerunfilecheck)             Checksum: 17DE7F738AB061F308ECD090A584FCDA;746.
  ) 
 Here is how much of TeX's memory you used:
- 12606 strings out of 473207
- 194513 string characters out of 5716288
- 794266 words of memory out of 5000000
- 35635 multiletter control sequences out of 15000+600000
+ 12447 strings out of 473207
+ 192632 string characters out of 5716288
+ 610939 words of memory out of 5000000
+ 35485 multiletter control sequences out of 15000+600000
  575950 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1821b,1350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW_Module3_Evan_Woods.pdf (16 pages, 1528575 bytes).
+Output written on HW_Module3_Evan_Woods.pdf (16 pages, 1527558 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
