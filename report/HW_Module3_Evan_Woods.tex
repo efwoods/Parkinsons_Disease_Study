@@ -59,7 +59,7 @@ The data was collected as an OpenNeuro dataset on \href{https://openneuro.org/da
 
 fALFF values have been indicative of cognitive function. A study titled "Default mode network mediates low‐frequency fluctuations in brain activity and behavior during sustained attention" indicates that "...low‐frequency fluctuations were significantly increased in the (Default Mode Network) but not in the (Anterior Nucleus) during sustained attention..." \cite{35903957}. This information was leveraged to assert fALFF as a key indicator metric of cognitive ability in the data. Furthermore, failure of the mitochondria to process reactive oxygen species in neuronal cells causes dopaminergic oxidation to cause cell damage, increased brain acidity, and cell death \cite{https://doi.org/10.1111/acel.13031}. This oxidative stress has been observed with respect to cell aging in the substantia nigra and is a cause of Parkinson's disease.
 
-To calculate the fALFF scores of the BOLD signal from the fMRI data, the BOLD signal would need to first be derived from the fMRI data, and the fALFF calculated from this signal per patient per region. Once the fALFF scores were gathered, spectral clustering of the scaled fALFF of the Substantia Nigra region implementing 3 K-Means clusters with a nearest neighbors affinity as hyperparameters would create label predictions of the data. The integrity of the predicted clusters was verified by calculating the silhouette score of the labels and scaled data as well as calculating the convex Hull Ratio of the hull volume of the Convex Hull Volume of the scaled fALFF score of the substantia nigra per the data volume of the product of the peak-to-peak values of the scaled fALFF of the substantia nigra. The scaled fALFF scores of the substantia nigra were reduced to the first two principal components with principal component analysis (hereafter refered to as PCA), before a non-linear T-Stochastic Neighbor Embedding (hereafter refered to as T-SNE) further transformed the data so as clear clustering would be identified on a plot. These cluster labels where then presumed as ground truth diagnoses for the patients. 
+To calculate the fALFF scores of the BOLD signal from the fMRI data, the BOLD signal would need to first be derived from the fMRI data, and the fALFF calculated from this signal per patient per region. Once the fALFF scores were gathered and missing data imputed given the best hyperparameter of 2 k-nearest-neighbors, spectral clustering of the scaled fALFF of the Substantia Nigra region implementing 3 K-Means clusters with a nearest neighbors affinity as hyperparameters would create label predictions of the data. The integrity of the predicted clusters was verified by calculating the silhouette score of the labels and scaled data as well as calculating the convex Hull Ratio as the proportion of the hull volume of the scaled fALFF score of the substantia nigra per the data volume of the product of the peak-to-peak values of the scaled fALFF of the substantia nigra. The scaled fALFF scores of the substantia nigra were reduced to the first two principal components with principal component analysis (hereafter refered to as PCA), before a non-linear T-Stochastic Neighbor Embedding (hereafter refered to as T-SNE) further transformed the data so clear clusters would be identified on a plot. These cluster labels where then presumed as ground truth diagnoses for the patients. 
 
 Using these clusters, the distribution of the results of the neurocognitive test battery and scores were graphed and inspected. A heatmap of the correlations of the scaled fALFF of the substantia nigra with respect to the cluster assignments, the left and right substantia nigra fALFF, and the as well as the F-A-S Verbal Phonemic Fluency test was visually inspected to determine which metric was indicative of cluster assignment. 
 
@@ -133,6 +133,7 @@ convexity_ratio = hull_volume / data_volume
 \end{center}
 
 
+
 \FloatBarrier
 
 % As shown in Listing \ref{lst:python_code}, the Python function prints a message.
@@ -151,6 +152,9 @@ Convexity Ratio=Convex Hull Volume (or Area) / Data Point Volume (or Area)
 Convex Hull Ratio close to 1: data is convex
 Convex Hull Ratio close to 0: a large empty space between the hull and the data indicating non-convex data
 
+\begin{center}
+    \texttt{Silhouette Score: 0.3722}
+\end{center}
 
 \FloatBarrier
 
@@ -160,6 +164,8 @@ Convex Hull Ratio close to 0: a large empty space between the hull and the data 
     \caption{Spectral Clustering of PCA and T-SNE Projection of the Right Substantia Nigra fALFF.}
     \label{fig:clustering}  % Label for referencing the figure
 \end{figure}
+
+
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
