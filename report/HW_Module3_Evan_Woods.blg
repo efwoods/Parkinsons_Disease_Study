@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: HW_Module3_Evan_Woods.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--entry type for "ds004392:1.0.0" isn't style-file defined
+--line 1 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 13 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 14 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 15 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 16 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 17 of file references.bib
+Warning--I'm ignoring 35903957's extra "author" field
+--line 19 of file references.bib
+Warning--empty journal in 35903957
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            530 strings with 4794 characters,
+and the built_in function-call counts, 1365 in all, are:
+= -- 119
+> -- 77
+< -- 0
++ -- 31
+- -- 26
+* -- 82
+:= -- 242
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 28
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 42
+empty$ -- 110
+format.name$ -- 26
+if$ -- 275
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 2
+newline$ -- 27
+num.names$ -- 10
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 23
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 43
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 11
+width$ -- 6
+write$ -- 50
+(There were 8 warnings)

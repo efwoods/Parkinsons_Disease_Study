@@ -69,6 +69,8 @@ The patients fALFF scores for each region were then grouped by cluster and corre
 \textit{(2 points) Presents results, including figures and/or statistics, which address the question of interest.}
 \textit{(2 points) The described methodology has been applied in complete and the results shown (that is, the author did not forget to include anything they discussed in the methodology.) }
 
+The anatomical images were loaded from the dataset. An example of the anatomical image is shown in Figure \ref{fig:anatomy}.
+
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
     \includegraphics[width=\textwidth]{"../img/anatomy.png"}  % Replace with your image file name and path
@@ -77,6 +79,8 @@ The patients fALFF scores for each region were then grouped by cluster and corre
 \end{figure}
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
+Harvard-Oxford atlases where then used to segment and filter the fMRI data as shown in the regions of the cortex (shown in Figure \ref{fig:cortex}), subcortex (shown in Figure \ref{fig:subcortex}), and substantia nigra (as shown in Figure \ref{fig:SNR}). 
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
@@ -105,6 +109,8 @@ The patients fALFF scores for each region were then grouped by cluster and corre
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
+The the atlas served as a mask for the fMRI data to filter with respect to the region of interest. Then, the mean of the voxels of each brain region was calculated to create resulting BOLD signals. An example time series of a BOLD signal is shown in Figure \ref{fig:BOLD}.
+
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
     \includegraphics[width=\textwidth]{"../img/BOLD.png"}  % Replace with your image file name and path
@@ -114,6 +120,39 @@ The patients fALFF scores for each region were then grouped by cluster and corre
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
+To compute the fALFF, a low-frequency band of 0.01 to 0.1 Hz was established to detect Amplitude Low-Frequency Fluctuations (hereto refered to as ALFF). The fMRI data was sampled at 0.5 Hz or a sample every 2 seconds. The TR parameter was set to establish this information. A low-frequency mask was used along with a fast-fourier transform of the BOLD signal to inspect the frequency domain of each time series to identify the absolute value of the masked data. The total power among frequencies up to 0.25 were used to normalize this signal as to account for BOLD signal activity interactions across regions. The fALFF was computed as the proportion of the ALFF to the total power of the given BOLD signal. This computation is shown in Listing \ref{lst:fALFF_code}.
+
+\begin{center}
+    \begin{lstlisting}[caption={fALFF Calculation}, label={lst:fALFF_code}]
+# Parameters
+TR = 2 # Repetition time (in seconds)
+low_freq_band = (0.01, 0.1) # Low-frequency range for ALFF (Hz)
+n_timepoints = roi_df.shape[0]
+frequencies = fftfreq(n_timepoints, d=TR)
+fft_data = fft(roi_df.iloc[:, index], axis=-1)
+
+# Create a mask for the low-frequency band
+low_freq_mask = np.logical_and(
+    frequencies >= low_freq_band[0], 
+    frequencies <= low_freq_band[1])
+
+# Compute the ALFF: average amplitude in the low-frequency band
+alff = np.abs(fft_data)[..., low_freq_mask].mean(axis=-1)
+
+# For fALFF: Compute the total power in the 0.01-0.25 Hz range
+total_power = np.abs(fft_data)[..., 
+    (frequencies >= 0.01) 
+    & (frequencies <= 0.25)].sum(axis=-1)
+
+# Compute fALFF: Normalized ALFF
+falff = alff / total_power
+\end{lstlisting}
+\end{center}
+
+\FloatBarrier
+
+These fALFF values are expected to be in the range from 0 to 1 where 1 is indicative of high fluctuations of the BOLD signal,
+and 0 is indicative of low fluctuations of the BOLD signal. The data was then scaled from -1 to 1 to normalize the data and process for clustering. To identify the appropriate clustering technique, the convexity of the data was investigated by calculating the Convex Hull Ratio as shown in Listing \ref{lst:convex_hull_code}.
 
 \begin{center}
     \begin{lstlisting}[caption={Convex Hull Ration Calculation}, label={lst:convex_hull_code}]
@@ -132,29 +171,7 @@ convexity_ratio = hull_volume / data_volume
 \texttt{Convexity Ratio: 0.3037}
 \end{center}
 
-
-
-\FloatBarrier
-
-% As shown in Listing \ref{lst:python_code}, the Python function prints a message.
-
-Why Spectral Clustering to Identify the Labels and Cluster the Data Worked:
-The Convexity Ratio is less than 1
-Values close to 1 are convex
-Values much less than 1 are non-convex
-PCA works with convex data, the resulting clusters should appear spherical
-Spectral Clustering \& DBSCAN works with non-convex clusters and those should appear non-spherical under PCA
-
-Convex Hull Ratio:
-
-A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclosing the data to the actual volume occupied by the data points.
-Convexity Ratio=Convex Hull Volume (or Area) / Data Point Volume (or Area)
-Convex Hull Ratio close to 1: data is convex
-Convex Hull Ratio close to 0: a large empty space between the hull and the data indicating non-convex data
-
-\begin{center}
-    \texttt{Silhouette Score: 0.3722}
-\end{center}
+A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclosing the data to the actual volume occupied by the data points. The convexity ratio of the data is less than 1. In the Convex Hull Ratio, calculations close to 1 are convex as the "hull" is close to the data, and calculations much less than 1 are non-convex as the "hull" is further from the data resulting in a space between the hull and data. PCA works well to cluster convex data and will result in clusters that appear spherical in nature. In contrast, spectral clustering techniques are useful to cluster non-convex data that appears non-spherical under PCA projections. The middling values of the convexity ratio and the silhouette score indicate a good fit to the scaled fALFF data. The resulting clusters along with calculated means of each cluster group are shown in Figure \ref{fig:clustering}.
 
 \FloatBarrier
 
@@ -165,6 +182,9 @@ Convex Hull Ratio close to 0: a large empty space between the hull and the data 
     \label{fig:clustering}  % Label for referencing the figure
 \end{figure}
 
+\begin{center}
+    \texttt{Silhouette Score: 0.3722}
+\end{center}
 
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
