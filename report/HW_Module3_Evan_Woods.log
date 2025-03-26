@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  25 MAR 2025 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  26 MAR 2025 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,64 +256,101 @@ File: listings.cfg 2024/09/23 1.10c listings configuration
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count302
+\@cmidlb=\count303
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count304
+\@lastruleclass=\count305
+\@thisrulewidth=\dimen173
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count302
-\Gm@cntv=\count303
-\c@Gm@tempcnt=\count304
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen174
+\Gm@wd@mp=\dimen175
+\Gm@odd@mp=\dimen176
+\Gm@even@mp=\dimen177
+\Gm@layoutwidth=\dimen178
+\Gm@layoutheight=\dimen179
+\Gm@layouthoffset=\dimen180
+\Gm@layoutvoffset=\dimen181
 \Gm@dimlist=\toks25
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 33.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
+\l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box56
 ) (./HW_Module3_Evan_Woods.aux)
 \openout1 = `HW_Module3_Evan_Woods.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen169
+\scratchcounter=\count310
+\scratchdimen=\dimen182
 \scratchbox=\box57
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\nofMPsegments=\count311
+\nofMParguments=\count312
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen170
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen183
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -321,12 +358,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 33.
  (./HW_Module3_Evan_Woods.out) (./HW_Module3_Evan_Woods.out)
 \@outlinefile=\write3
 \openout3 = `HW_Module3_Evan_Woods.out'.
 
-\c@lstlisting=\count312
+\c@lstlisting=\count316
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -389,6 +426,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
+<../img/anatomy.png, id=64, 476.982pt x 252.945pt>
+File: ../img/anatomy.png Graphic file (type png)
+<use ../img/anatomy.png>
+Package pdftex.def Info: ../img/anatomy.png  used on input line 76.
+(pdftex.def)             Requested size: 452.9679pt x 240.21533pt.
+<../img/cortex.png, id=69, 491.436pt x 267.399pt>
+File: ../img/cortex.png Graphic file (type png)
+<use ../img/cortex.png>
+Package pdftex.def Info: ../img/cortex.png  used on input line 87.
+(pdftex.def)             Requested size: 452.9679pt x 246.47928pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -397,9 +449,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (./HW_Module3_Evan_Woods.bbl)
+[4 <../img/anatomy.png>]
+<../img/regions.png, id=82, 491.436pt x 267.399pt>
+File: ../img/regions.png Graphic file (type png)
+<use ../img/regions.png>
+Package pdftex.def Info: ../img/regions.png  used on input line 96.
+(pdftex.def)             Requested size: 452.9679pt x 246.47928pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -408,27 +468,257 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (./HW_Module3_Evan_Woods.aux)
+[5 <../img/cortex.png> <../img/regions.png>]
+<../img/brain_atlas.png, id=89, 476.982pt x 252.945pt>
+File: ../img/brain_atlas.png Graphic file (type png)
+<use ../img/brain_atlas.png>
+Package pdftex.def Info: ../img/brain_atlas.png  used on input line 105.
+(pdftex.def)             Requested size: 452.9679pt x 240.21533pt.
+<../img/BOLD.png, id=91, 412.6617pt x 328.8285pt>
+File: ../img/BOLD.png Graphic file (type png)
+<use ../img/BOLD.png>
+Package pdftex.def Info: ../img/BOLD.png  used on input line 116.
+(pdftex.def)             Requested size: 452.9679pt x 360.9498pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6
+
+ <../img/brain_atlas.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 126.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 129.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 129--130
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 136.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 136.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <../img/BOLD.png>]
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 139--140
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.43738pt too wide) in paragraph at lines 162--164
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 164--165
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 171.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<../img/fALFF_SN_Spectral_Clustering.png, id=117, 693.0693pt x 521.7894pt>
+File: ../img/fALFF_SN_Spectral_Clustering.png Graphic file (type png)
+<use ../img/fALFF_SN_Spectral_Clustering.png>
+Package pdftex.def Info: ../img/fALFF_SN_Spectral_Clustering.png  used on input line 180.
+(pdftex.def)             Requested size: 452.9679pt x 341.02216pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <../img/fALFF_SN_Spectral_Clustering.png>]
+<../img/pdf_of_clustered_test_results.png, id=163, 1727.253pt x 1149.093pt>
+File: ../img/pdf_of_clustered_test_results.png Graphic file (type png)
+<use ../img/pdf_of_clustered_test_results.png>
+Package pdftex.def Info: ../img/pdf_of_clustered_test_results.png  used on input line 216.
+(pdftex.def)             Requested size: 452.9679pt x 301.3346pt.
+<../img/fALFF_SN_fas_test_correlation_heatmap.png, id=165, 475.5366pt x 406.1574pt>
+File: ../img/fALFF_SN_fas_test_correlation_heatmap.png Graphic file (type png)
+<use ../img/fALFF_SN_fas_test_correlation_heatmap.png>
+Package pdftex.def Info: ../img/fALFF_SN_fas_test_correlation_heatmap.png  used on input line 227.
+(pdftex.def)             Requested size: 452.9679pt x 386.88231pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <../img/pdf_of_clustered_test_results.png>]
+<../img/statistically_significant_correlated_regions_sn_cogn.png, id=176, 395.3169pt x 551.4201pt>
+File: ../img/statistically_significant_correlated_regions_sn_cogn.png Graphic file (type png)
+<use ../img/statistically_significant_correlated_regions_sn_cogn.png>
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn.png  used on input line 238.
+(pdftex.def)             Requested size: 452.9679pt x 631.8396pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <../img/fALFF_SN_fas_test_correlation_heatmap.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12 <../img/statistically_significant_correlated_regions_sn_cogn.png>]
+<../img/statistically_significant_correlated_regions_sn_mci.png, id=190, 395.3169pt x 448.074pt>
+File: ../img/statistically_significant_correlated_regions_sn_mci.png Graphic file (type png)
+<use ../img/statistically_significant_correlated_regions_sn_mci.png>
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_mci.png  used on input line 247.
+(pdftex.def)             Requested size: 452.9679pt x 513.4214pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <../img/statistically_significant_correlated_regions_sn_mci.png>]
+<../img/statistically_significant_correlated_regions_sn_pdd.png, id=197, 395.3169pt x 448.074pt>
+File: ../img/statistically_significant_correlated_regions_sn_pdd.png Graphic file (type png)
+<use ../img/statistically_significant_correlated_regions_sn_pdd.png>
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_pdd.png  used on input line 257.
+(pdftex.def)             Requested size: 452.9679pt x 513.4214pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <../img/statistically_significant_correlated_regions_sn_pdd.png>]
+<../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png, id=205, 854.2314pt x 865.0719pt>
+File: ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png Graphic file (type png)
+<use ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png  used on input line 268.
+(pdftex.def)             Requested size: 452.9679pt x 458.71033pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15
+
+
+
+ <../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>]
+<../img/3D_Plot_of_Correlated_fALFF.png, id=217, 1677.26625pt x 1311.90125pt>
+File: ../img/3D_Plot_of_Correlated_fALFF.png Graphic file (type png)
+<use ../img/3D_Plot_of_Correlated_fALFF.png>
+Package pdftex.def Info: ../img/3D_Plot_of_Correlated_fALFF.png  used on input line 279.
+(pdftex.def)             Requested size: 452.9679pt x 354.29814pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <../img/3D_Plot_of_Correlated_fALFF.png>] (./HW_Module3_Evan_Woods.bbl)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17] (./HW_Module3_Evan_Woods.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `HW_Module3_Evan_Woods.out' has not changed.
-(rerunfilecheck)             Checksum: C7545A8391E03C0365DF261B662A5E26;1469.
+(rerunfilecheck)             Checksum: 17DE7F738AB061F308ECD090A584FCDA;746.
  ) 
 Here is how much of TeX's memory you used:
- 11828 strings out of 473207
- 179632 string characters out of 5716288
- 767608 words of memory out of 5000000
- 34915 multiletter control sequences out of 15000+600000
- 575435 words of font info for 68 fonts, out of 8000000 for 9000
+ 12501 strings out of 473207
+ 193452 string characters out of 5716288
+ 629039 words of memory out of 5000000
+ 35510 multiletter control sequences out of 15000+600000
+ 576264 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1458b,1275s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW_Module3_Evan_Woods.pdf (5 pages, 56762 bytes).
+ 75i,12n,79p,1820b,1974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HW_Module3_Evan_Woods.pdf (17 pages, 1539293 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

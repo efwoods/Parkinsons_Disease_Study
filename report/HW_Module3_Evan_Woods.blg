@@ -18,45 +18,45 @@ Warning--I'm ignoring 35903957's extra "author" field
 Warning--I'm ignoring 35903957's extra "author" field
 --line 19 of file references.bib
 Warning--empty journal in 35903957
-You've used 2 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            512 strings with 4396 characters,
-and the built_in function-call counts, 611 in all, are:
-= -- 49
-> -- 45
+            530 strings with 4794 characters,
+and the built_in function-call counts, 1365 in all, are:
+= -- 119
+> -- 77
 < -- 0
-+ -- 18
-- -- 16
-* -- 41
-:= -- 115
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 14
++ -- 31
+- -- 26
+* -- 82
+:= -- 242
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 17
-empty$ -- 40
-format.name$ -- 16
-if$ -- 116
+cite$ -- 6
+duplicate$ -- 42
+empty$ -- 110
+format.name$ -- 26
+if$ -- 275
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 12
-num.names$ -- 4
-pop$ -- 21
+int.to.str$ -- 5
+missing$ -- 2
+newline$ -- 27
+num.names$ -- 10
+pop$ -- 43
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 23
 quote$ -- 0
-skip$ -- 15
+skip$ -- 36
 stack$ -- 0
-substring$ -- 10
-swap$ -- 1
+substring$ -- 43
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 20
 warning$ -- 1
-while$ -- 4
-width$ -- 3
-write$ -- 19
+while$ -- 11
+width$ -- 6
+write$ -- 50
 (There were 8 warnings)
