@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex HW_Module3_Evan_Woods"] 1742953297.38117 "HW_Module3_Evan_Woods.aux" "HW_Module3_Evan_Woods.bbl" "HW_Module3_Evan_Woods" 1742953352.36354 0
-  "./references.bib" 1742951579.60699 658 91e0bcd3e515e11f72188e8975fe5110 ""
+["bibtex HW_Module3_Evan_Woods"] 0 "HW_Module3_Evan_Woods.aux" "HW_Module3_Evan_Woods.bbl" "HW_Module3_Evan_Woods" 1742954907.43708 -1
+  "./references.bib" 1742954732.27053 1106 92527d45b9759bdd05faf476f07286c0 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "HW_Module3_Evan_Woods.aux" 1742953352.16487 1698 8f3245ebcb250b8bf6f40cc0e6f6b4f9 "pdflatex"
+  "HW_Module3_Evan_Woods.aux" 1742954907.24913 1816 c7dc2dc02441f5017aedcf6f32d4ef0d "pdflatex"
   (generated)
   "HW_Module3_Evan_Woods.bbl"
   "HW_Module3_Evan_Woods.blg"
   (rewritten before read)
-["pdflatex"] 1742953351.84481 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742953352.36367 0
-  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742953351.68886 9232 3a0e1389e45694e9113c8b4181d2ec16 ""
+["pdflatex"] 1742954906.93565 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742954907.4372 0
+  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742954906.75113 11387 27f451fbdce7876782be75ebb2c3d30c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -94,11 +94,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737647259 5466570 e8651e7fa7bb054fee9a07d3f37faf28 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737647334 3352331 f39680cb74fb0420eca6f38c70ab2e88 ""
   "/usr/local/texlive/2024/texmf.cnf" 1737647256.43782 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "HW_Module3_Evan_Woods.aux" 1742953352.16487 1698 8f3245ebcb250b8bf6f40cc0e6f6b4f9 "pdflatex"
-  "HW_Module3_Evan_Woods.bbl" 1742953297.46321 423 7375a079670b3a98c13b254c36439052 "bibtex HW_Module3_Evan_Woods"
-  "HW_Module3_Evan_Woods.out" 1742953352.16487 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
-  "HW_Module3_Evan_Woods.tex" 1742953351.68886 9232 3a0e1389e45694e9113c8b4181d2ec16 ""
-  "HW_Module3_Evan_Woods.toc" 1742953352.16587 910 35ecd61ee64c17c80d5a8e9e5af8c63e "pdflatex"
+  "HW_Module3_Evan_Woods.aux" 1742954907.24913 1816 c7dc2dc02441f5017aedcf6f32d4ef0d "pdflatex"
+  "HW_Module3_Evan_Woods.bbl" 1742954732.50253 691 e4e88415e49f83df17b86bc2142a3c24 "bibtex HW_Module3_Evan_Woods"
+  "HW_Module3_Evan_Woods.out" 1742954907.24913 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
+  "HW_Module3_Evan_Woods.tex" 1742954906.75113 11387 27f451fbdce7876782be75ebb2c3d30c ""
+  "HW_Module3_Evan_Woods.toc" 1742954907.24913 910 9a53bf5284463db90f8691b6a015c028 "pdflatex"
   (generated)
   "HW_Module3_Evan_Woods.aux"
   "HW_Module3_Evan_Woods.log"
