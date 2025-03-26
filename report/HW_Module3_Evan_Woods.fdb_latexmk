@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742944353.90297 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742944354.231 0
-  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742944353.41105 5428 d9309e13a68152435ac128c528507dfb ""
+["pdflatex"] 1742949302.8403 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742949303.17288 0
+  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742949302.68085 6505 cffb26324dd34c4e2da57ac5f519861d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -91,10 +91,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737647259 5466570 e8651e7fa7bb054fee9a07d3f37faf28 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737647334 3352331 f39680cb74fb0420eca6f38c70ab2e88 ""
   "/usr/local/texlive/2024/texmf.cnf" 1737647256.43782 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "HW_Module3_Evan_Woods.aux" 1742944354.20306 1564 5cf3c5b85ad34ac7182fcf4ea70eb827 "pdflatex"
-  "HW_Module3_Evan_Woods.out" 1742944354.20406 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
-  "HW_Module3_Evan_Woods.tex" 1742944353.41105 5428 d9309e13a68152435ac128c528507dfb ""
-  "HW_Module3_Evan_Woods.toc" 1742944354.20406 910 e4be6911c229cd22180cf42ea4bbe9b6 "pdflatex"
+  "HW_Module3_Evan_Woods.aux" 1742949303.14685 1564 a32b4390d6fd2e22b8ff0f9e0e0696b0 "pdflatex"
+  "HW_Module3_Evan_Woods.out" 1742949303.14685 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
+  "HW_Module3_Evan_Woods.tex" 1742949302.68085 6505 cffb26324dd34c4e2da57ac5f519861d ""
+  "HW_Module3_Evan_Woods.toc" 1742949303.14685 910 e85eaeed9cf60d73e7a43bc1966ce08d "pdflatex"
   (generated)
   "HW_Module3_Evan_Woods.aux"
   "HW_Module3_Evan_Woods.log"
