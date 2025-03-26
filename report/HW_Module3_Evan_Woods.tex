@@ -63,7 +63,7 @@ To calculate the fALFF scores of the BOLD signal from the fMRI data, the BOLD si
 
 Using these clusters, the distribution of the results of the neurocognitive test battery and scores were graphed and inspected. A heatmap of the correlations of the scaled fALFF of the substantia nigra with respect to the cluster assignments, the left and right substantia nigra fALFF, and the as well as the F-A-S Verbal Phonemic Fluency test was visually inspected to determine which metric was indicative of cluster assignment. 
 
-The patients fALFF scores for each region were then grouped by cluster and correlations with respect to the right substantia nigra were visually inspected. To determine which correlated regions had no statistically significant difference in correlation to the fALFF of the right substantia nigra of the patients in a common cluster, a z-test was implemented by calculating a z-score using the standard deviation of the correlations to the fALFF of the substantia nigra per the difference in the correlated fALFF scores. The critical value was calculated with a presumed normal probability distribution and significance level of 0.05. Regions that had no statistical significant difference in correlation to the fALFF of the right substantia nigra became nodes of a common network. The edges between the identified regions and the right substantia nigra were weighted by the correlations in the fALFF scores of the right substantia nigra. This method was followed for each of the three groups: cognitively normal, MCI, and PDD. The resulting graphs where then color-coordinated to delinate differences between clustered groups and combined into a single network graph. Three dimensional coordinates of the centroids from the anatomical NIFTI images in the dataset used to identify parcellated voxels of the brain regions were calculated and used to plot the nodes on a near-anatomically-correct 3-Dimensional model of the human brain collected from NIH \cite{NIH3DPX021161} and displayed on the \href{https://github.com/efwoods/Parkinson_Disease_Study}{GitHub - Parkinson's Disease Study} repository page: \href{https://efwoods.github.io/Parkinsons_Disease_Study/}{Parkinson's Disease Study}. \cite{WoodsParkinsonsStudy}.
+The patients fALFF scores for each region were then grouped by cluster and correlations with respect to the right substantia nigra were visually inspected. To determine which correlated regions had no statistically significant difference in correlation to the fALFF of the right substantia nigra of the patients in a common cluster, a z-test was implemented by calculating a z-score using the standard deviation of the correlations to the fALFF of the substantia nigra per the difference in the correlated fALFF scores. The critical value was calculated with a presumed normal probability distribution and significance level of 0.05. Regions that had no statistical significant difference in correlation to the fALFF of the right substantia nigra became nodes of a common network. The edges between the identified regions and the right substantia nigra were weighted by the correlations in the fALFF scores of the right substantia nigra. This method was followed for each of the three groups: cognitively normal, MCI, and PDD. The resulting graphs where then color-coordinated to delinate differences between clustered groups and combined into a single network graph. Three dimensional coordinates of the centroids from the anatomical NIFTI images in the dataset used to identify parcellated voxels of the brain regions were calculated and used to plot the nodes on a near-anatomically-correct 3-Dimensional model of the human brain collected from NIH \cite{NIH3DPX021161} and displayed on the \href{https://github.com/efwoods/Parkinson_Disease_Study}{GitHub - Parkinson's Disease Study} repository page: \href{https://efwoods.github.io/Parkinsons_Disease_Study/}{Parkinson's Disease Study} \cite{WoodsParkinsonsStudy}.
 
 \section{Part 3: Results}
 \textit{(2 points) Presents results, including figures and/or statistics, which address the question of interest.}
@@ -189,6 +189,7 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
+The means of each cluster is listed in Table \ref{tab:example}. In both substantia nigra left and substantia nigra right, the values are sequential from least to greatest. Presumably, the fALFF with diminished activity is the most intense diagnosis with cognitive normality at the opposite end of the spectrum as inferred from the research article \href{https://pmc.ncbi.nlm.nih.gov/articles/PMC9704793/}{Default mode network mediates low‐frequency fluctuations in brain activity and behavior during sustained attention} \cite{35903957}. Parkinson's Disease is not necessarily progressive toward these worsening impairments and patients may never experience any necessitated declination of health toward other clustered disorders. The dataset explicitly states that these three clusters exist \cite{ds004392:1.0.0}, and the visual plot as well as the silhouette and convex hull ratio calculations support this claim.
 
 \begin{table}[ht]
 \centering
@@ -206,9 +207,9 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 \label{tab:example}  % Label the table for referencing
 \end{table}
 
-% Here is an example of referencing a table: Table~\ref{tab:example}.
-
 \FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
+Given these defined clusters, further inquiry into the result of the neurocognitive battery of tests was made to determine if any separation with respect to the mean of the distribution of the data could be visually identified. Only the FAS Verbal Phonemic Fluency Test scores showed any discrepancy in the means between clustered groups as shown in Figure \ref{fig:pdf}.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
@@ -219,6 +220,8 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 
 \FloatBarrier
 
+A heatmap to determine the best indicator of cluster grouping given correlation with cluster assignment was generated as shown in Figure \ref{fig:heatmap}. The right substantia nigra proved to be most correlated to the cluster assignment and was therefore the basis of the network graph.
+
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
     \includegraphics[width=\textwidth]{"../img/fALFF_SN_fas_test_correlation_heatmap.png"}  % Replace with your image file name and path
@@ -227,6 +230,8 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 \end{figure}
 
 \FloatBarrier
+
+Correlations of the fALFF scores with the right substantia nigra in each clustered group were computed. Brain regions whose fALFF correlations were not statistically significanly different from the right substantia nigra were added to each plot with the respective correlations shown on the y-axis and the region along the x-axis. This was computed to show how many regions had similar activity if the right substantia nigra was indicative of cognitive health per cluster assignment. Cognitively Normal Correlations are shown in Figure \ref{fig:cn}. No region was correlated within the MCI group as shown in Figure \ref{fig:mci}. Figure \ref{fig:pdd} shows that the left claudate had no statistical significant difference from the fALFF correlation of the right substantia nigra.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
@@ -256,6 +261,8 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 
 \FloatBarrier
 
+The undirected weighted network graph, shown in Figure \ref{fig:2D}, was defined where the nodes are the regions of the brain that had no statisticaly significant difference in correlation with the fALFF of the right substantia nigra for each group. The nodes were color-coded according to cluster assignment where green nodes indicate cognitively normal patients and red nodes indicate patients with PDD. The line thickness and shade are both scaled by the weight of the edges in the undirected network graph, and the central node is the substantia nigra as all correlations are with respect to this region which is indicative of cluster assignment as shown in the heatmap in Figure \ref{fig:heatmap}.
+
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
     \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png"}  % Replace with your image file name and path
@@ -264,6 +271,8 @@ A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclo
 \end{figure}
 
 \FloatBarrier
+
+A \href{https://3d.nih.gov/entries/3DPX-021161}{Detailed Human Brain Model (3D)} was acquire from the NIH website \cite{NIH3DPX021161}. This was used along with centroids that were calculated (along with the mean voxels that defined the BOLD signals) given regions of interest defined by the harvard-oxford atlases that masked the anatomical images from the dataset of the patients. These anatomically correct coordinates served as a guide to map the network graph into a 3-dimensional space to view relationships between regions of the brain common to a given diagnosis. This is shown in Figure \ref{fig:3D}. An interactive demonstration is available at the \href{https://efwoods.github.io/Parkinsons_Disease_Study/}{Parkinson's Disease Study repository Github Page} \cite{WoodsParkinsonsStudy}.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
