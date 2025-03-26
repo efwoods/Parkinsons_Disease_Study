@@ -50,6 +50,7 @@ Parkinson's is a disease that affects the social and cognitive abilities of peop
 
 \subsection{Question 2.1}
 \textit{ (2 points) Describes methodology for network analysis.}
+\textit{(2 points) Grader is convinced that the methodology makes sense for the question to be answered. Grader is convinced that no additional methodology within the bounds of techniques taught and discussed in this module could be applied beyond what was described. The grader should only consider additional methodology that adds meaningfully to the answer for the question: additions that simply repeat or confirm the presented results should not be considered by the grader. If a justification is provided for why a particular method was not used, the grader should be convinced by that argument. }
 
 The data was collected as an OpenNeuro dataset on Parkinson's Disease, functional connectivity, and cognition from https://openneuro.org/datasets/ds004392/versions/1.0.0 \cite{ds004392:1.0.0}. In the dataset, all patients were diagnosed with Parkinson's, scanned with resting state fMRI, and underwent a neurocognitive test battery. Of these patients, there are three sub-diagnoses of patients who are either cognitively normal, have mild cognitive impairment, or have Parkinson's disease dementia. The patients were given scores of their attention, executive function, global cognition, language cognition, and visuospatial cognition based as determined by the results of the neurocognitive test battery. The eleven tests included a total score on teh Montreal Cognitive Assessment, a Mattis Dementia Rating Scale 2, a Trail Making Test part A, a Trail Making Test part B, a Brief Test of Attention, an oral Symbol Digits Modality Test, a Boston Naming Test, a California Verbal Learning Test (2nd edition with the total learning score calculated from the 5 total trials), another California Verbal Learning Test (2nd edition with a long delay free recall total score), a F-A-S Verbal Phonemic Fluency test, and a Judgement of Line Orientation test. All units of the metrics which resulted from the tests were standardized with a norm of 0 and a variance of 1.
 
@@ -61,35 +62,15 @@ Using these clusters, the distribution of the results of the neurocognitive test
 
 The patients fALFF scores for each region were then grouped by cluster and correlations with respect to the right substantia nigra were visually inspected. To determine which correlated regions had no statistically significant difference in correlation to the fALFF of the right substantia nigra of the patients in a common cluster, a z-test was implemented by calculating a z-score using the standard deviation of the correlations to the fALFF of the substantia nigra per the difference in the correlated fALFF scores. The critical value was calculated with a presumed normal probability distribution and significance level of 0.05. Regions that had no statistical significant difference in correlation to the fALFF of the right substantia nigra became nodes of a common network. The edges between the identified regions and the right substantia nigra were weighted by the correlations in the fALFF scores of the right substantia nigra. This method was followed for each of the three groups: cognitively normal, MCI, and PDD. The resulting graphs where then color-coordinated to delinate differences between clustered groups and combined into a single network graph. Three dimensional coordinates of the centroids from the anatomical NIFTI images in the dataset used to identify parcellated voxels of the brain regions were calculated and used to plot the nodes on a near-anatomically-correct 3-Dimensional model of the human brain collected from NIH \cite{NIH3DPX021161} and displayed on the \href{https://github.com/efwoods/Parkinson_Disease_Study}{GitHub - Parkinson's Disease Study} repository page: \href{https://efwoods.github.io/Parkinsons_Disease_Study/}{Parkinson's Disease Study}. \cite{WoodsParkinsonsStudy}.
 
-
-
-
-\subsection{Question 2.2}
-\textit{(2 points) Grader is convinced that the methodology makes sense for the question to be answered. Grader is convinced that no additional methodology within the bounds of techniques taught and discussed in this module could be applied beyond what was described. The grader should only consider additional methodology that adds meaningfully to the answer for the question: additions that simply repeat or confirm the presented results should not be considered by the grader. If a justification is provided for why a particular method was not used, the grader should be convinced by that argument. }
-
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
-
 \section{Part 3: Results}
-
-\subsection{Question 3.1}
 \textit{(2 points) Presents results, including figures and/or statistics, which address the question of interest.}
-
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
-
-\subsection{Question 3.2}
 \textit{(2 points) The described methodology has been applied in complete and the results shown (that is, the author did not forget to include anything they discussed in the methodology.) }
 
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
 
 \section{Part 4: Discussion}
-\subsection{Question 4.1}
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
-
-\subsection{Question 4.2}
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
-
-\subsection{Question 4.3}
-Solution: Write your answer in a brief and clear language. In addition, you should add all materials that you have consulted to in the Reference section at the end of the report. These materials could be a paper [1], a book [2], or some internet materials [3].
+\textit{(2 points) Question does not need to be successfully answered, but the grader should be convinced that the author has answered the question to the best ability of the methodology presented.}
+\textit{(1 point) Provides commentary on what was discovered, what were the limitations of the methods, what may have been surprising to discover, etc.}
+\textit{(1 point) Award this point if the question was successfully answered to the grader's satisfaction. }
 
 \newpage
 
