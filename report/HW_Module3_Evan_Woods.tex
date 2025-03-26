@@ -5,6 +5,9 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{times}
+\usepackage{booktabs}
+\usepackage{placeins}
+\usepackage{xcolor}  % Optional: for color syntax highlighting
 
 % Page Setup
 \usepackage[a4paper, margin=1in]{geometry}
@@ -66,81 +69,32 @@ The patients fALFF scores for each region were then grouped by cluster and corre
 \textit{(2 points) Presents results, including figures and/or statistics, which address the question of interest.}
 \textit{(2 points) The described methodology has been applied in complete and the results shown (that is, the author did not forget to include anything they discussed in the methodology.) }
 
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/anatomy.png"}  % Replace with your image file name and path
+    \caption{Example of the Anatomical Images of the Patients in the Dataset.}
+    \label{fig:anatomy}  % Label for referencing the figure
+\end{figure}
 
-
-
-\section{Part 4: Discussion}
-\textit{(2 points) Question does not need to be successfully answered, but the grader should be convinced that the author has answered the question to the best ability of the methodology presented.}
-\textit{(1 point) Provides commentary on what was discovered, what were the limitations of the methods, what may have been surprising to discover, etc.}
-\textit{(1 point) Award this point if the question was successfully answered to the grader's satisfaction. }
-
-
-
-
-
-
-
-
-
-
-\newpage
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
-    \includegraphics[width=\textwidth]{"../img/fALFF_SN_fas_test_correlation_heatmap.png"}  % Replace with your image file name and path
-    \caption{This is the heatmap of correlations with respect to the substantia nigra left, the substantia nigra right, the cluster assignments, and the FAS Verbal Phonemic Fluency Test scores.}
-    \label{fig:heatmap}  % Label for referencing the figure
+    \includegraphics[width=\textwidth]{"../img/cortex.png"}  % Replace with your image file name and path
+    \caption{Harvard-Oxford Atlas of the Cortical Regions of the Brain.}
+    \label{fig:cortex}  % Label for referencing the figure
 \end{figure}
 
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/fALFF_SN_Spectral_Clustering.png"}  % Replace with your image file name and path
-    \caption{Spectral Clustering of PCA and T-SNE projection of the of the substantia nigra fALFF.}
-    \label{fig:clustering}  % Label for referencing the figure
-\end{figure}
-
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/pdf_of_clustered_test_results.png"}  % Replace with your image file name and path
-    \caption{Distribution of Neurocognitive Battery Test Results and Metrics Grouped by Cognitive Diagnosis.}
-    \label{fig:pdf}  % Label for referencing the figure
-\end{figure}
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
     \includegraphics[width=\textwidth]{"../img/regions.png"}  % Replace with your image file name and path
-    \caption{This is the harvard-oxford atlas of the subcortical regions of the brain.}
+    \caption{Harvard-Oxford Atlas of the Subcortical Regions of the Brain.}
     \label{fig:subcortex}  % Label for referencing the figure
 \end{figure}
 
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png"}  % Replace with your image file name and path
-    \caption{2-Dimensional Undirected Weighted Network Graph of Brain Regions with Correlations with No Statistical Significant Difference of fALFF to the Right Substantia Nigra fALFF.}
-    \label{fig:2D}  % Label for referencing the figure
-\end{figure}
-
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_cogn.png"}  % Replace with your image file name and path
-    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Cognitively Normal Parkinson's Disease Patients.}
-    \label{fig:cn}  % Label for referencing the figure
-\end{figure}
-
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_mci.png"}  % Replace with your image file name and path
-    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Mild Cognitive Impaired Parkinson's Disease Patients.}
-    \label{fig:mci}  % Label for referencing the figure
-\end{figure}
-
-\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
-    \centering
-    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_pdd.png"}  % Replace with your image file name and path
-    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Parkinson's Disease Dementia Patients.}
-    \label{fig:pdd}  % Label for referencing the figure
-\end{figure}
-
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
@@ -149,12 +103,141 @@ The patients fALFF scores for each region were then grouped by cluster and corre
     \label{fig:SNR}  % Label for referencing the figure
 \end{figure}
 
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
-    \includegraphics[width=\textwidth]{"../img/anatomy.png"}  % Replace with your image file name and path
-    \caption{Example of the Anatomical Images of the Patients in the Dataset.}
-    \label{fig:anatomy}  % Label for referencing the figure
+    \includegraphics[width=\textwidth]{"../img/BOLD.png"}  % Replace with your image file name and path
+    \caption{BOLD signal of the Brain Stem of a MCI Patient.}
+    \label{fig:BOLD}  % Label for referencing the figure
 \end{figure}
+
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
+
+\begin{center}
+    \begin{lstlisting}[caption={Convex Hull Ration Calculation}, label={lst:convex_hull_code}]
+hull = ConvexHull(fALFF_SN_scaled)
+
+# Compute convex hull volume (or area in 2D)
+hull_volume = hull.volume if fALFF_SN_scaled.shape[1] > 2 else hull.area
+
+# Compute bounding box volume (approximation of occupied space)
+# Range product as bounding box volume
+data_volume = np.prod(np.ptp(fALFF_SN_scaled, axis=0))
+
+# Convexity Ratio
+convexity_ratio = hull_volume / data_volume
+\end{lstlisting}
+\texttt{Convexity Ratio: 0.3037}
+\end{center}
+
+
+\FloatBarrier
+
+% As shown in Listing \ref{lst:python_code}, the Python function prints a message.
+
+Why Spectral Clustering to Identify the Labels and Cluster the Data Worked:
+The Convexity Ratio is less than 1
+Values close to 1 are convex
+Values much less than 1 are non-convex
+PCA works with convex data, the resulting clusters should appear spherical
+Spectral Clustering \& DBSCAN works with non-convex clusters and those should appear non-spherical under PCA
+
+Convex Hull Ratio:
+
+A Convex Hull Ratio compares the volume (or area in 2D) of the convex hull enclosing the data to the actual volume occupied by the data points.
+Convexity Ratio=Convex Hull Volume (or Area) / Data Point Volume (or Area)
+Convex Hull Ratio close to 1: data is convex
+Convex Hull Ratio close to 0: a large empty space between the hull and the data indicating non-convex data
+
+
+\FloatBarrier
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/fALFF_SN_Spectral_Clustering.png"}  % Replace with your image file name and path
+    \caption{Spectral Clustering of PCA and T-SNE Projection of the Right Substantia Nigra fALFF.}
+    \label{fig:clustering}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrl}
+    \toprule
+     & Substantia Nigra Left & Substantia Nigra Right & Cognitive Health \\
+    Cluster &  &  &  \\
+    \midrule
+    0 & 0.332347 & -0.091915 & MCI \\
+    1 & -1.161762 & -1.059544 & PDD \\
+    2 & 0.573540 & 1.434661 & Cognitively Normal \\
+    \bottomrule
+\end{tabular}
+\caption{Identification of Cognitive Health Based on Scaled PCA and T-SNE Projections of Spectrally Clustered fALFF metrics for the Right and Left Substantia Nigra.}
+\label{tab:example}  % Label the table for referencing
+\end{table}
+
+% Here is an example of referencing a table: Table~\ref{tab:example}.
+
+\FloatBarrier  % Forces all previous floats (tables, figures) to be processed.
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/pdf_of_clustered_test_results.png"}  % Replace with your image file name and path
+    \caption{Distribution of Neurocognitive Battery Test Results and Metrics Grouped by Cognitive Diagnosis.}
+    \label{fig:pdf}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/fALFF_SN_fas_test_correlation_heatmap.png"}  % Replace with your image file name and path
+    \caption{This is the heatmap of correlations with respect to the substantia nigra left, the substantia nigra right, the cluster assignments, and the FAS Verbal Phonemic Fluency Test scores.}
+    \label{fig:heatmap}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_cogn.png"}  % Replace with your image file name and path
+    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Cognitively Normal Parkinson's Disease Patients.}
+    \label{fig:cn}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_mci.png"}  % Replace with your image file name and path
+    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Mild Cognitive Impaired Parkinson's Disease Patients.}
+    \label{fig:mci}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
+
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_pdd.png"}  % Replace with your image file name and path
+    \caption{Bar Plot of Brain Regions with No Statistical Significant Difference in Correlation of fALFF with Respect to the Right Substantia Nigra fALFF among Parkinson's Disease Dementia Patients.}
+    \label{fig:pdd}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
+    \centering
+    \includegraphics[width=\textwidth]{"../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png"}  % Replace with your image file name and path
+    \caption{2-Dimensional Undirected Weighted Network Graph of Brain Regions with Correlations with No Statistical Significant Difference of fALFF to the Right Substantia Nigra fALFF.}
+    \label{fig:2D}  % Label for referencing the figure
+\end{figure}
+
+\FloatBarrier
 
 \begin{figure}[h]  % "htbp" means "here, top, bottom, page" – LaTeX decides the best position
     \centering
@@ -163,8 +246,15 @@ The patients fALFF scores for each region were then grouped by cluster and corre
     \label{fig:3D}  % Label for referencing the figure
 \end{figure}
 
-\newpage 
+\FloatBarrier
 
+\newpage
+\section{Part 4: Discussion}
+\textit{(2 points) Question does not need to be successfully answered, but the grader should be convinced that the author has answered the question to the best ability of the methodology presented.}
+\textit{(1 point) Provides commentary on what was discovered, what were the limitations of the methods, what may have been surprising to discover, etc.}
+\textit{(1 point) Award this point if the question was successfully answered to the grader's satisfaction. }
+
+\FloatBarrier
 
 \begin{center}
 \begin{lstlisting}[language=Python]
