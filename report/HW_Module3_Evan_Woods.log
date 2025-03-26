@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  26 MAR 2025 09:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.23)  26 MAR 2025 09:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,15 +426,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-<../img/anatomy.png, id=64, 476.982pt x 252.945pt>
+<../img/anatomy.png, id=54, 476.982pt x 252.945pt>
 File: ../img/anatomy.png Graphic file (type png)
 <use ../img/anatomy.png>
-Package pdftex.def Info: ../img/anatomy.png  used on input line 76.
+Package pdftex.def Info: ../img/anatomy.png  used on input line 74.
 (pdftex.def)             Requested size: 452.9679pt x 240.21533pt.
-<../img/cortex.png, id=69, 491.436pt x 267.399pt>
+<../img/cortex.png, id=59, 491.436pt x 267.399pt>
 File: ../img/cortex.png Graphic file (type png)
 <use ../img/cortex.png>
-Package pdftex.def Info: ../img/cortex.png  used on input line 87.
+Package pdftex.def Info: ../img/cortex.png  used on input line 85.
 (pdftex.def)             Requested size: 452.9679pt x 246.47928pt.
 
 
@@ -450,10 +450,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <../img/anatomy.png>]
-<../img/regions.png, id=82, 491.436pt x 267.399pt>
+<../img/regions.png, id=72, 491.436pt x 267.399pt>
 File: ../img/regions.png Graphic file (type png)
 <use ../img/regions.png>
-Package pdftex.def Info: ../img/regions.png  used on input line 96.
+Package pdftex.def Info: ../img/regions.png  used on input line 94.
 (pdftex.def)             Requested size: 452.9679pt x 246.47928pt.
 
 
@@ -469,15 +469,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <../img/cortex.png> <../img/regions.png>]
-<../img/brain_atlas.png, id=89, 476.982pt x 252.945pt>
+<../img/brain_atlas.png, id=79, 476.982pt x 252.945pt>
 File: ../img/brain_atlas.png Graphic file (type png)
 <use ../img/brain_atlas.png>
-Package pdftex.def Info: ../img/brain_atlas.png  used on input line 105.
+Package pdftex.def Info: ../img/brain_atlas.png  used on input line 103.
 (pdftex.def)             Requested size: 452.9679pt x 240.21533pt.
-<../img/BOLD.png, id=91, 412.6617pt x 328.8285pt>
+<../img/BOLD.png, id=81, 412.6617pt x 328.8285pt>
 File: ../img/BOLD.png Graphic file (type png)
 <use ../img/BOLD.png>
-Package pdftex.def Info: ../img/BOLD.png  used on input line 116.
+Package pdftex.def Info: ../img/BOLD.png  used on input line 114.
 (pdftex.def)             Requested size: 452.9679pt x 360.9498pt.
 
 
@@ -495,21 +495,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
  <../img/brain_atlas.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 126.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 129.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 124.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 127.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (0.63672pt too wide) in paragraph at lines 129--130
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 127--128
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 136.
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 134.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 136.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 134.
 
 
 
@@ -520,28 +520,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <../img/BOLD.png>]
-Overfull \hbox (0.63672pt too wide) in paragraph at lines 139--140
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 137--138
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (65.43738pt too wide) in paragraph at lines 162--164
+Overfull \hbox (65.43738pt too wide) in paragraph at lines 160--162
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.63672pt too wide) in paragraph at lines 164--165
+Overfull \hbox (0.63672pt too wide) in paragraph at lines 162--163
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 171.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 169.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<../img/fALFF_SN_Spectral_Clustering.png, id=117, 693.0693pt x 521.7894pt>
+<../img/fALFF_SN_Spectral_Clustering.png, id=107, 693.0693pt x 521.7894pt>
 File: ../img/fALFF_SN_Spectral_Clustering.png Graphic file (type png)
 <use ../img/fALFF_SN_Spectral_Clustering.png>
-Package pdftex.def Info: ../img/fALFF_SN_Spectral_Clustering.png  used on input line 180.
+Package pdftex.def Info: ../img/fALFF_SN_Spectral_Clustering.png  used on input line 178.
 (pdftex.def)             Requested size: 452.9679pt x 341.02216pt.
 
 
@@ -566,15 +566,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <../img/fALFF_SN_Spectral_Clustering.png>]
-<../img/pdf_of_clustered_test_results.png, id=163, 1727.253pt x 1149.093pt>
+<../img/pdf_of_clustered_test_results.png, id=153, 1727.253pt x 1149.093pt>
 File: ../img/pdf_of_clustered_test_results.png Graphic file (type png)
 <use ../img/pdf_of_clustered_test_results.png>
-Package pdftex.def Info: ../img/pdf_of_clustered_test_results.png  used on input line 216.
+Package pdftex.def Info: ../img/pdf_of_clustered_test_results.png  used on input line 214.
 (pdftex.def)             Requested size: 452.9679pt x 301.3346pt.
-<../img/fALFF_SN_fas_test_correlation_heatmap.png, id=165, 475.5366pt x 406.1574pt>
+<../img/fALFF_SN_fas_test_correlation_heatmap.png, id=155, 475.5366pt x 406.1574pt>
 File: ../img/fALFF_SN_fas_test_correlation_heatmap.png Graphic file (type png)
 <use ../img/fALFF_SN_fas_test_correlation_heatmap.png>
-Package pdftex.def Info: ../img/fALFF_SN_fas_test_correlation_heatmap.png  used on input line 227.
+Package pdftex.def Info: ../img/fALFF_SN_fas_test_correlation_heatmap.png  used on input line 225.
 (pdftex.def)             Requested size: 452.9679pt x 386.88231pt.
 
 
@@ -590,10 +590,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <../img/pdf_of_clustered_test_results.png>]
-<../img/statistically_significant_correlated_regions_sn_cogn.png, id=176, 395.3169pt x 551.4201pt>
+<../img/statistically_significant_correlated_regions_sn_cogn.png, id=166, 395.3169pt x 551.4201pt>
 File: ../img/statistically_significant_correlated_regions_sn_cogn.png Graphic file (type png)
 <use ../img/statistically_significant_correlated_regions_sn_cogn.png>
-Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn.png  used on input line 238.
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn.png  used on input line 236.
 (pdftex.def)             Requested size: 452.9679pt x 631.8396pt.
 
 
@@ -618,10 +618,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <../img/statistically_significant_correlated_regions_sn_cogn.png>]
-<../img/statistically_significant_correlated_regions_sn_mci.png, id=190, 395.3169pt x 448.074pt>
+<../img/statistically_significant_correlated_regions_sn_mci.png, id=180, 395.3169pt x 448.074pt>
 File: ../img/statistically_significant_correlated_regions_sn_mci.png Graphic file (type png)
 <use ../img/statistically_significant_correlated_regions_sn_mci.png>
-Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_mci.png  used on input line 247.
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_mci.png  used on input line 245.
 (pdftex.def)             Requested size: 452.9679pt x 513.4214pt.
 
 
@@ -637,10 +637,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <../img/statistically_significant_correlated_regions_sn_mci.png>]
-<../img/statistically_significant_correlated_regions_sn_pdd.png, id=197, 395.3169pt x 448.074pt>
+<../img/statistically_significant_correlated_regions_sn_pdd.png, id=187, 395.3169pt x 448.074pt>
 File: ../img/statistically_significant_correlated_regions_sn_pdd.png Graphic file (type png)
 <use ../img/statistically_significant_correlated_regions_sn_pdd.png>
-Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_pdd.png  used on input line 257.
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_pdd.png  used on input line 255.
 (pdftex.def)             Requested size: 452.9679pt x 513.4214pt.
 
 
@@ -656,10 +656,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <../img/statistically_significant_correlated_regions_sn_pdd.png>]
-<../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png, id=205, 854.2314pt x 865.0719pt>
+<../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png, id=195, 854.2314pt x 865.0719pt>
 File: ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png Graphic file (type png)
 <use ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>
-Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png  used on input line 268.
+Package pdftex.def Info: ../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png  used on input line 266.
 (pdftex.def)             Requested size: 452.9679pt x 458.71033pt.
 
 
@@ -675,10 +675,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <../img/statistically_significant_correlated_regions_sn_cogn_pdd_graph.png>]
-<../img/3D_Plot_of_Correlated_fALFF.png, id=217, 1677.26625pt x 1311.90125pt>
+<../img/3D_Plot_of_Correlated_fALFF.png, id=207, 1677.26625pt x 1311.90125pt>
 File: ../img/3D_Plot_of_Correlated_fALFF.png Graphic file (type png)
 <use ../img/3D_Plot_of_Correlated_fALFF.png>
-Package pdftex.def Info: ../img/3D_Plot_of_Correlated_fALFF.png  used on input line 279.
+Package pdftex.def Info: ../img/3D_Plot_of_Correlated_fALFF.png  used on input line 277.
 (pdftex.def)             Requested size: 452.9679pt x 354.29814pt.
 
 
@@ -704,21 +704,21 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `HW_Module3_Evan_Woods.out' has not changed.
-(rerunfilecheck)             Checksum: 17DE7F738AB061F308ECD090A584FCDA;746.
+(rerunfilecheck)             Checksum: 95DBD4EB6D319FD9F1545E859142A2D8;506.
  ) 
 Here is how much of TeX's memory you used:
- 12501 strings out of 473207
- 193452 string characters out of 5716288
- 629039 words of memory out of 5000000
- 35510 multiletter control sequences out of 15000+600000
- 576264 words of font info for 71 fonts, out of 8000000 for 9000
+ 12495 strings out of 473207
+ 193370 string characters out of 5716288
+ 629033 words of memory out of 5000000
+ 35507 multiletter control sequences out of 15000+600000
+ 574638 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1820b,1974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW_Module3_Evan_Woods.pdf (17 pages, 1539293 bytes).
+Output written on HW_Module3_Evan_Woods.pdf (17 pages, 1538566 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
