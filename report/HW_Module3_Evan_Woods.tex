@@ -44,13 +44,15 @@
 \subsection{Question 1.1}
 \textit{Clearly states a sociological question which is interesting and relevant to the data. The question must be sociologically motivated: for example, “Compare the network structure in 2003 vs 2009" is not a good question, without further context. If you have some reason to believe that the network structure changes in those years, then you should make that your central question: for example, “Did crimes involving youth offenders become more organized and structured over the years" is a better question, from which comparing the structure in different years becomes part of the methodology to answer the question. More examples of possible questions for cooffending networks are provided below. }
 
-Solution: Parkinson's is a disease that affects the social and cognitive abilities of people who have the diagnosis. In this body of work, I sought to identify which patients in a dataset are either cognitively normal, under mild cognitive impairment (hereafter refered to as MCI), or have Parkinson's disease dementia (hereafter refered to as PDD) based on computed fractional Amplitude Low-Frequency Fluctuations (hereafter refered to as fALFF) from the mean of the Blood Oxidation Level Dependent (hereafter refered to as BOLD) signal of the Substantia Nigra extracted from their functional Magnetic Resonance Image (hereafter refered to as fMRI). I furthered this analysis by seeking to answer the question: of the patients who have been identified to belong to the same diagnosis, what regions of the brain have no statistically significant difference of correlations of fALFF values? That is to say, what regions of the brain are similar in BOLD activity in patients with a common diagnosis, how does the activity of these patients differ between the diagnosed groups, and what are possible remedies to induce healthy levels of cognition determined by the fALFF of the BOLD signal in patients diagnosed with MCI or PDD to achieve an fALFF of the BOLD signal that resembles that of the patients diagnosed to be cognitively normal?   
+Parkinson's is a disease that affects the social and cognitive abilities of people who have the diagnosis. In this body of work, I sought to identify which patients in a dataset are either cognitively normal, under mild cognitive impairment (hereafter refered to as MCI), or have Parkinson's disease dementia (hereafter refered to as PDD) based on computed fractional Amplitude Low-Frequency Fluctuations (hereafter refered to as fALFF) from the mean of the Blood Oxidation Level Dependent (hereafter refered to as BOLD) signal of the Substantia Nigra extracted from their functional Magnetic Resonance Image (hereafter refered to as fMRI). I furthered this analysis by seeking to answer the question: of the patients who have been identified to belong to the same diagnosis, what regions of the brain have no statistically significant difference of correlations of fALFF values? That is to say, what regions of the brain are similar in BOLD activity in patients with a common diagnosis, how does the activity of these patients differ between the diagnosed groups, and what are possible remedies to induce healthy levels of cognition determined by the fALFF of the BOLD signal in patients diagnosed with MCI or PDD to achieve an fALFF of the BOLD signal that resembles that of the patients diagnosed to be cognitively normal?   
 
 \section{Part 2: Methods}
 
 \subsection{Question 2.1}
 \textit{ (2 points) Describes methodology for network analysis.}
-Solution: Write your solution here.
+
+The data was collected as an OpenNeuro dataset on Parkinson's Disease, functional connectivity, and cognition from https://openneuro.org/datasets/ds004392/versions/1.0.0 \cite{ds004392:1.0.0}. In the dataset, all patients were diagnosed with Parkinson's, scanned with resting state fMRI, and underwent a neurocognitive test battery. Of these patients, there are three sub-diagnoses of patients who are either cognitively normal, have mild cognitive impairment, or have Parkinson's disease dementia. The patients were given scores of their attention, executive function, global cognition, language cognition, and visuospatial cognition based as determined by the results of the neurocognitive test battery. The eleven tests included a total score on teh Montreal Cognitive Assessment, a Mattis Dementia Rating Scale 2, a Trail Making Test part A, a Trail Making Test part B, a Brief Test of Attention, an oral Symbol Digits Modality Test, a Boston Naming Test, a California Verbal Learning Test (2nd edition with the total learning score calculated from the 5 total trials), another California Verbal Learning Test (2nd edition with a long delay free recall total score), a F-A-S Verbal Phonemic Fluency test, and a Judgement of Line Orientation test. All units of the metrics which resulted from the tests were standardized with a norm of 0 and a variance of 1.
+
 
 \subsection{Question 2.2}
 \textit{(2 points) Grader is convinced that the methodology makes sense for the question to be answered. Grader is convinced that no additional methodology within the bounds of techniques taught and discussed in this module could be applied beyond what was described. The grader should only consider additional methodology that adds meaningfully to the answer for the question: additions that simply repeat or confirm the presented results should not be considered by the grader. If a justification is provided for why a particular method was not used, the grader should be convinced by that argument. }
@@ -81,6 +83,7 @@ Solution: Write your answer in a brief and clear language. In addition, you shou
 
 \newpage
 
+
 \begin{center}
 \begin{lstlisting}[language=Python]
 # This is a sample Python code snippet
@@ -93,12 +96,8 @@ print(result)
 
 For longer code segments, they should be placed in the Appendix after the main text.
 
-\section*{References}
-
-\begin{enumerate}
-    \item R. L. Wasserstein and N. A. Lazar, “The ASA statement on p-values: context, process, and purpose,” The American Statistician, vol. 70, no. 2, pp. 129-133, 2016.
-    \item B. Gustavii, \textit{How to write and illustrate a scientific paper}, Cambridge University Press, 2017.
-    \item Wikipedia, “Principal component analysis,” Accessed: Sep. 2021. [Online]. Available: \url{https://en.wikipedia.org/wiki/Principal_component_analysis}
-\end{enumerate}
+% Insert References Section
+\bibliographystyle{plain} % Citation style (alternatives: abbrv, unsrt, apalike, IEEEtran, etc.)
+\bibliography{references} % Use the .bib file (without the .bib extension)
 
 \end{document}

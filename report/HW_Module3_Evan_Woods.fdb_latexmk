@@ -1,10 +1,16 @@
 # Fdb version 4
-["pdflatex"] 1742949302.8403 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742949303.17288 0
-  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742949302.68085 6505 cffb26324dd34c4e2da57ac5f519861d ""
+["bibtex HW_Module3_Evan_Woods"] 1742951258.88203 "HW_Module3_Evan_Woods.aux" "HW_Module3_Evan_Woods.bbl" "HW_Module3_Evan_Woods" 1742951259.46217 0
+  "./references.bib" 1742950344.85514 365 0209af230ec8b655ebc90e2ee050940c ""
+  "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "HW_Module3_Evan_Woods.aux" 1742951259.26688 1656 c5de76e8c2e3fa8d202283dec68d9623 "pdflatex"
+  (generated)
+  "HW_Module3_Evan_Woods.bbl"
+  "HW_Module3_Evan_Woods.blg"
+  (rewritten before read)
+["pdflatex"] 1742951258.96852 "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" "HW_Module3_Evan_Woods.pdf" "HW_Module3_Evan_Woods" 1742951259.46228 0
+  "/home/linux-pc/gh/Parkinsons_Disease_Study/report/HW_Module3_Evan_Woods.tex" 1742951258.23087 7514 83c041f4f696d2bbb1ed900d5b9efd81 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
@@ -23,11 +29,9 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1136849748 45458 a3faba884469519614ca56ba5f6b1de1 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf" 1136768653 1344 6ff472164bf9de0fb2e864b28ac156d9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1136768653 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
@@ -81,7 +85,6 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty" 1727126400 206518 4eb59a801ad842a713fa168c34227290 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty" 1727126400 77051 be68720e5402397a830abb9eed5a2cb4 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty" 1710360531 353 9024412f43e92cd5b21fe9ded82d0610 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty" 1586716065 856 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
@@ -91,10 +94,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737647259 5466570 e8651e7fa7bb054fee9a07d3f37faf28 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737647334 3352331 f39680cb74fb0420eca6f38c70ab2e88 ""
   "/usr/local/texlive/2024/texmf.cnf" 1737647256.43782 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "HW_Module3_Evan_Woods.aux" 1742949303.14685 1564 a32b4390d6fd2e22b8ff0f9e0e0696b0 "pdflatex"
-  "HW_Module3_Evan_Woods.out" 1742949303.14685 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
-  "HW_Module3_Evan_Woods.tex" 1742949302.68085 6505 cffb26324dd34c4e2da57ac5f519861d ""
-  "HW_Module3_Evan_Woods.toc" 1742949303.14685 910 e85eaeed9cf60d73e7a43bc1966ce08d "pdflatex"
+  "HW_Module3_Evan_Woods.aux" 1742951259.26688 1656 c5de76e8c2e3fa8d202283dec68d9623 "pdflatex"
+  "HW_Module3_Evan_Woods.bbl" 1742951258.96488 281 7792580571e440971703e5913e36de9d "bibtex HW_Module3_Evan_Woods"
+  "HW_Module3_Evan_Woods.out" 1742951259.26788 1469 c7545a8391e03c0365df261b662a5e26 "pdflatex"
+  "HW_Module3_Evan_Woods.tex" 1742951258.23087 7514 83c041f4f696d2bbb1ed900d5b9efd81 ""
+  "HW_Module3_Evan_Woods.toc" 1742951259.26788 910 2cec518f8200f0b37774c79ee1fbd77d "pdflatex"
   (generated)
   "HW_Module3_Evan_Woods.aux"
   "HW_Module3_Evan_Woods.log"
